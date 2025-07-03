@@ -21,7 +21,7 @@ const Preloader = ({ onLoaded }) => {
             {/* Preloader Image - User Addable */}
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden bg-white shadow-lg flex items-center justify-center animate-pulse-preloader">
                 {/* User can replace this image URL */}
-                <img src="http://googleusercontent.com/image_generation_content/3" alt="Couple in Love" className="w-full h-full object-cover" />
+                <img src="https://harshjain-29.github.io/Vanshi-s-Birthday/assets/images/Preloader.png" alt="Couple in Love" className="w-full h-full object-cover" />
             </div>
             <p
                 className="mt-8 text-2xl md:text-3xl font-bold text-fuchsia-700 animate-fade-in-up"
@@ -64,11 +64,15 @@ const BirthdayCake = ({ onClick, candlesLit }) => {
                 <circle cx="165" cy="65" r="2.5" fill="#FFFFFF"/>
 
                 {/* Anime Couple Placeholder on top of the cake */}
-                <image href="http://googleusercontent.com/image_generation_content/1" x="95" y="10" width="60" height="60" />
+                <image href="https://harshjain-29.github.io/Vanshi-s-Birthday/assets/images/oncake.png" x="95" y="10" width="60" height="60" />
 
                 {/* Text on the middle layer of the cake */}
                 <text x="125" y="130" textAnchor="middle" fontSize="20" fill="#FFF" className="font-dancing-script">
                     Happy Birthday!
+                </text>
+
+                <text x="125" y="145" textAnchor="middle" fontSize="30" fill="#FFF" className="font-dancing-script">
+                    Vanshi
                 </text>
 
                 {/* Candles - adjusted positions for the new cake layers */}
@@ -269,7 +273,7 @@ const App = () => {
             id: `mem-${i}`,
             src: `${process.env.PUBLIC_URL}/assets/images/ourmemory${i+1}.png`,
             alt: `Our Memory ${i + 1}`,
-            caption: `A beautiful moment #${i + 1}`,
+            // caption: `A beautiful moment #${i + 1}`,
             // Initial state: spread out
             spreadTransform: {
                 rotate: Math.random() * 30 - 15, // -15 to +15 degrees
