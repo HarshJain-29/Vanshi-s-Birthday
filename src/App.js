@@ -64,14 +64,14 @@ const BirthdayCake = ({ onClick, candlesLit }) => {
                 <circle cx="165" cy="65" r="2.5" fill="#FFFFFF"/>
 
                 {/* Anime Couple Placeholder on top of the cake */}
-                <image href="https://harshjain-29.github.io/Vanshi-s-Birthday/assets/images/oncake.png" x="95" y="10" width="60" height="60" />
+                <image href="https://harshjain-29.github.io/Vanshi-s-Birthday/assets/images/oncake.png" x="95" y="10" width="120" height="100" />
 
                 {/* Text on the middle layer of the cake */}
                 <text x="125" y="130" textAnchor="middle" fontSize="20" fill="#FFF" className="font-dancing-script">
                     Happy Birthday!
                 </text>
 
-                <text x="125" y="145" textAnchor="middle" fontSize="30" fill="#FFF" className="font-dancing-script">
+                <text x="125" y="190" textAnchor="middle" fontSize="35" fill="#FFF" className="font-dancing-script">
                     Vanshi
                 </text>
 
