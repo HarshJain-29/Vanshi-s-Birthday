@@ -709,9 +709,7 @@ const App = () => {
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                 allowFullScreen
                                             ></iframe>
-                                            <p
-                                                className="text-sm text-gray-500 mt-2 text-center"
-                                            >To add a YouTube Music song: Go to the song on YouTube Music, click "Share", then "Embed", and copy the `src` URL from the `&lt;iframe&gt;` code. Paste it here.</p>
+                                            
                                         </div>
                                     ))}
                                 </div>
