@@ -38,7 +38,7 @@ const Preloader = ({ onLoaded }) => {
 const BirthdayCake = ({ onClick, candlesLit }) => {
     return (
         <div className="flex justify-center mb-8 relative z-10 cursor-pointer" onClick={onClick}>
-            <svg className="w-64 h-64 md:w-80 md:h-80" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-64 h-64 md:w-80 md:h-80" viewBox="0 0 250 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                 {/* Bottom Layer of Cake - Original Colors */}
                 <rect x="25" y="150" width="200" height="70" rx="15" fill="#F8BBD0"/>
                 <path d="M25 150 C 75 120, 175 120, 225 150 L 225 150 L 25 150 Z" fill="#F48FB1"/>
@@ -64,7 +64,7 @@ const BirthdayCake = ({ onClick, candlesLit }) => {
                 <circle cx="165" cy="65" r="2.5" fill="#FFFFFF"/>
 
                 {/* Anime Couple Placeholder on top of the cake */}
-                <image href="https://harshjain-29.github.io/Vanshi-s-Birthday/assets/images/oncake.png" x="95" y="10" width="120" height="100" />
+                <image href="https://harshjain-29.github.io/Vanshi-s-Birthday/assets/images/oncake.png" x="63" y="-20" width="120" height="80" />
 
                 {/* Text on the middle layer of the cake */}
                 <text x="125" y="130" textAnchor="middle" fontSize="20" fill="#FFF" className="font-dancing-script">
