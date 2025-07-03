@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vanshi-birthday/static/css/main.75707032.css",
+    "main.js": "/vanshi-birthday/static/js/main.a26ddc99.js",
+    "index.html": "/vanshi-birthday/index.html",
+    "main.75707032.css.map": "/vanshi-birthday/static/css/main.75707032.css.map",
+    "main.a26ddc99.js.map": "/vanshi-birthday/static/js/main.a26ddc99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75707032.css",
+    "static/js/main.a26ddc99.js"
+  ]
+}
