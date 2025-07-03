@@ -1,8 +1,8 @@
 {
+  "homepage": "https://harshjain-29.github.io/Vanshi-s-Birthday",
   "name": "vanshi-s-birthday",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://harshjain-29.github.io/Vanshi-s-Birthday",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
