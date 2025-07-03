@@ -632,11 +632,13 @@ const App = () => {
                                                     Your browser does not support the video tag.
                                                 </video>
                                             ) : (
+                                                <div className="flex justify-center">
                                                 <img
                                                     src={currentOpenCard.media}
                                                     alt={currentOpenCard.title}
                                                     className="rounded-lg shadow-md w-72 object-contain border-2 border-rose-300"
                                                 />
+                                                </div>
                                             )}
                                         </div>
                                     )}
