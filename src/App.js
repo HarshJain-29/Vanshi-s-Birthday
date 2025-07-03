@@ -248,7 +248,7 @@ const App = () => {
                 With infinite love, always yours — Harsh ❤️
             </p>
         </div>);
-    const notePhotoSrc = "https://placehold.co/600x400/9C27B0/FFFFFF?text=Our+Special+Photo"; // Placeholder for the note's photo
+    const notePhotoSrc = `${process.env.PUBLIC_URL}/assets/images/special.jpg`; // Placeholder for the note's photo
 
 
     // Placeholder data for 16 photos
@@ -271,7 +271,7 @@ const App = () => {
 
         return {
             id: `mem-${i}`,
-            src: `${process.env.PUBLIC_URL}/assets/images/ourmemory${i+1}.png`,
+            src: `${process.env.PUBLIC_URL}/assets/images/ourmemory${i+1}.jpg`,
             alt: `Our Memory ${i + 1}`,
             // caption: `A beautiful moment #${i + 1}`,
             // Initial state: spread out
@@ -345,7 +345,7 @@ const App = () => {
             id: 'laugh',
             title: 'Open when you need to laugh',
             icon: <Laugh className="w-8 h-8 text-fuchsia-500" />,
-            media: `${process.env.PUBLIC_URL}/assets/images/happy.png`,
+            media: `${process.env.PUBLIC_URL}/assets/images/happy.jpg`,
             text: "May this remind you of all the silly moments we've shared, and bring a smile to your face, my love. Laughter is the best medicine, and you deserve a dose of happiness!",
             song: `${process.env.PUBLIC_URL}/assets/songs/happy.mp3`,
         },
@@ -353,7 +353,7 @@ const App = () => {
             id: 'down',
             title: 'Open when you are feeling down',
             icon: <Frown className="w-8 h-8 text-indigo-500" />,
-            media: "https://placehold.co/600x400/ADD8E6/333?text=Your+Comforting+Photo/GIF",
+            media: `${process.env.PUBLIC_URL}/assets/images/feelingdown.png`,
             text: "When the world feels heavy, remember that you're never alone. I'm here for you, always. This is a reminder of my unending support and love, Vanshi. You are strong and beautiful.",
             song: `${process.env.PUBLIC_URL}/assets/songs/feelingdown.mp3`,
         },
@@ -361,7 +361,7 @@ const App = () => {
             id: 'loved',
             title: 'Open when you need to feel being loved',
             icon: <Heart className="w-8 h-8 text-rose-500" />,
-            media: "https://placehold.co/600x400/FFB6C1/333?text=Your+Loving+Photo/GIF",
+            media: `${process.env.PUBLIC_URL}/assets/images/loved.jpg`,
             text: "My dearest Vanshi, if you ever doubt how much you are cherished, open this. Every moment with you is a blessing, and my love for you grows stronger with each passing day. You are my everything.",
             song: `${process.env.PUBLIC_URL}/assets/songs/loved.mp3`,
         },
@@ -369,7 +369,7 @@ const App = () => {
             id: 'angry',
             title: 'Open when you are angry with me',
             icon: <MessageSquare className="w-8 h-8 text-amber-500" />,
-            media: "https://placehold.co/600x400/FFFFE0/333?text=Your+Apology+Photo/GIF",
+            media: `${process.env.PUBLIC_URL}/assets/images/unhappy.png`,
             text: "Okay, deep breaths! Remember that even when we argue, my love for you remains constant. Let's talk it out, or just cuddle it out. I cherish you, even when you're mad at me.",
             song: `${process.env.PUBLIC_URL}/assets/songs/angry.mp3`,
         },
@@ -377,7 +377,7 @@ const App = () => {
             id: 'miss',
             title: 'Open when you miss me',
             icon: <Sparkle className="w-8 h-8 text-cyan-500" />,
-            media: "https://placehold.co/600x400/B0E0E6/333?text=Your+Missing+You+Photo/GIF",
+            media: `${process.env.PUBLIC_URL}/assets/images/missing.jpg`,
             text: "Even when miles separate us, you're always in my thoughts and heart. This is a little piece of me, wishing I was there with you, Vanshi. Can't wait until we're together again!",
             song: `${process.env.PUBLIC_URL}/assets/songs/miss.mp3`,
         },
@@ -385,7 +385,7 @@ const App = () => {
             id: 'asleep',
             title: 'Open when you are falling asleep',
             icon: <Smile className="w-8 h-8 text-emerald-500" />,
-            media: "https://placehold.co/600x400/C5E1A5/333?text=Your+Goodnight+Photo/GIF",
+            media: `${process.env.PUBLIC_URL}/assets/images/sleep.jpg`,
             text: "As you drift off to dreamland, remember how much you're adored. May your sleep be peaceful and filled with sweet dreams. Goodnight, my beautiful Vanshi. I love you.",
             song: `${process.env.PUBLIC_URL}/assets/songs/sleep.mp3`,
         },
