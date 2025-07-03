@@ -267,7 +267,7 @@ const App = () => {
 
         return {
             id: `mem-${i}`,
-            src: `https://placehold.co/600x400/FFD1DC/333?text=Our+Memory+${i + 1}`,
+            src: `${process.env.PUBLIC_URL}/assets/images/ourmemory${i+1}.png`,
             alt: `Our Memory ${i + 1}`,
             caption: `A beautiful moment #${i + 1}`,
             // Initial state: spread out
