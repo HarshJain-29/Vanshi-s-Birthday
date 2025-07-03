@@ -343,7 +343,7 @@ const App = () => {
             icon: <Laugh className="w-8 h-8 text-fuchsia-500" />,
             media: "https://placehold.co/600x400/FFD1DC/333?text=Your+Funny+Photo/GIF",
             text: "May this remind you of all the silly moments we've shared, and bring a smile to your face, my love. Laughter is the best medicine, and you deserve a dose of happiness!",
-            song: "/assets/songs/happy.mp3",
+            song: `${process.env.PUBLIC_URL}/assets/songs/happy.mp3`,
         },
         {
             id: 'down',
@@ -351,7 +351,7 @@ const App = () => {
             icon: <Frown className="w-8 h-8 text-indigo-500" />,
             media: "https://placehold.co/600x400/ADD8E6/333?text=Your+Comforting+Photo/GIF",
             text: "When the world feels heavy, remember that you're never alone. I'm here for you, always. This is a reminder of my unending support and love, Vanshi. You are strong and beautiful.",
-            song: "/assets/songs/Feelingdown.mp3",
+            song: `${process.env.PUBLIC_URL}/assets/songs/Feelingdown.mp3`,
         },
         {
             id: 'loved',
@@ -359,7 +359,7 @@ const App = () => {
             icon: <Heart className="w-8 h-8 text-rose-500" />,
             media: "https://placehold.co/600x400/FFB6C1/333?text=Your+Loving+Photo/GIF",
             text: "My dearest Vanshi, if you ever doubt how much you are cherished, open this. Every moment with you is a blessing, and my love for you grows stronger with each passing day. You are my everything.",
-            song: "/assets/songs/Loved.mp3",
+            song: `${process.env.PUBLIC_URL}/assets/songs/Loved.mp3`,
         },
         {
             id: 'angry',
@@ -367,7 +367,7 @@ const App = () => {
             icon: <MessageSquare className="w-8 h-8 text-amber-500" />,
             media: "https://placehold.co/600x400/FFFFE0/333?text=Your+Apology+Photo/GIF",
             text: "Okay, deep breaths! Remember that even when we argue, my love for you remains constant. Let's talk it out, or just cuddle it out. I cherish you, even when you're mad at me.",
-            song: "/assets/songs/Angry.mp3",
+            song: `${process.env.PUBLIC_URL}/assets/songs/Angry.mp3`,
         },
         {
             id: 'miss',
@@ -375,7 +375,7 @@ const App = () => {
             icon: <Sparkle className="w-8 h-8 text-cyan-500" />,
             media: "https://placehold.co/600x400/B0E0E6/333?text=Your+Missing+You+Photo/GIF",
             text: "Even when miles separate us, you're always in my thoughts and heart. This is a little piece of me, wishing I was there with you, Vanshi. Can't wait until we're together again!",
-            song: "/assets/songs/Miss.mp3",
+            song: `${process.env.PUBLIC_URL}/assets/songs/Miss.mp3`,
         },
         {
             id: 'asleep',
@@ -383,7 +383,7 @@ const App = () => {
             icon: <Smile className="w-8 h-8 text-emerald-500" />,
             media: "https://placehold.co/600x400/C5E1A5/333?text=Your+Goodnight+Photo/GIF",
             text: "As you drift off to dreamland, remember how much you're adored. May your sleep be peaceful and filled with sweet dreams. Goodnight, my beautiful Vanshi. I love you.",
-            song: "/assets/songs/Sleep.mp3",
+            song: `${process.env.PUBLIC_URL}/assets/songs/Sleep.mp3`,
         },
     ];
 
