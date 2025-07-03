@@ -605,7 +605,7 @@ const App = () => {
                     {currentOpenCard && (
                         <div className="fixed inset-0 flex items-center justify-center p-4 z-50 backdrop-blur-md bg-black bg-opacity-50 animate-fade-in">
                             <div
-                                className="relative bg-gradient-to-br from-white to-pink-50 rounded-3xl p-8 max-w-lg w-full md:max-w-xl lg:max-w-2xl shadow-2xl animate-pop-up-open flex flex-col items-center border-4 border-fuchsia-300 overflow-hidden"
+                                className="relative bg-gradient-to-br from-white to-pink-50 rounded-3xl p-8 max-w-lg w-full md:max-w-xl lg:max-w-2xl shadow-2xl animate-pop-up-open flex flex-col items-center border-4 border-fuchsia-300 overflow-hidden max-h-[90vh] overflow-auto"
                             >
                                 {/* Envelope top flap */}
                                 <div
