@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Vanshi-s-Birthday/static/css/main.75707032.css",
-    "main.js": "/Vanshi-s-Birthday/static/js/main.ffc58ea8.js",
+    "main.js": "/Vanshi-s-Birthday/static/js/main.35ea03b8.js",
     "index.html": "/Vanshi-s-Birthday/index.html",
     "main.75707032.css.map": "/Vanshi-s-Birthday/static/css/main.75707032.css.map",
-    "main.ffc58ea8.js.map": "/Vanshi-s-Birthday/static/js/main.ffc58ea8.js.map"
+    "main.35ea03b8.js.map": "/Vanshi-s-Birthday/static/js/main.35ea03b8.js.map"
   },
   "entrypoints": [
     "static/css/main.75707032.css",
-    "static/js/main.ffc58ea8.js"
+    "static/js/main.35ea03b8.js"
   ]
 }
