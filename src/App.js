@@ -635,7 +635,7 @@ const App = () => {
                                                 <img
                                                     src={currentOpenCard.media}
                                                     alt={currentOpenCard.title}
-                                                    className="rounded-lg shadow-md w-full object-contain border-2 border-rose-300 mx-auto"
+                                                    className="rounded-lg shadow-md w-[80%] max-w-md object-contain border-2 border-rose-300 mx-auto"
                                                 />
                                             )}
                                         </div>
